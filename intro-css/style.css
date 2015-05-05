@@ -1,0 +1,70 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#title {
+  color: blue;
+}
+
+.restaurant-group {
+  background-color: #CCC;
+  padding: 10px 10px 20px 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.restaurant-group h3 {
+  color: #FFF;
+  font-weight: normal;
+  font-style: italic;
+}
+
+a {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #000084;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: #555;
+  border: 2px solid #333;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 100; /*100-900*/
+  color: #777;
+  line-height: 125%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+div.play {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  margin: auto;
+}
+
+#one {
+  background-color: red;
+}
+
+#two {
+  background-color: blue;
+}
+
+#three {
+  background-color: green;
+  display: none;
+}
+
+#four {
+  background-color: purple;
+}
