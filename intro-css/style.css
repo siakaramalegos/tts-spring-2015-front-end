@@ -11,12 +11,27 @@ body {
   padding: 10px 10px 20px 10px;
   margin: 10px;
   border-radius: 10px;
+  width: 60%;
+}
+
+.rest-photo{
+  width: 28%;
+  float: left;
+  border-radius: 10px;
 }
 
 .restaurant-group h3 {
   color: #FFF;
   font-weight: normal;
   font-style: italic;
+}
+
+/*.restaurant-group p {
+  clear: both;
+}*/
+
+.rest-text {
+  margin-left: 30%;
 }
 
 a {
@@ -40,7 +55,7 @@ p {
   color: #777;
   line-height: 125%;
   letter-spacing: 2px;
-  text-align: center;
+  text-align: left;
 }
 
 div.play {
