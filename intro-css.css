@@ -1,0 +1,11 @@
+body {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#title {
+  color: blue;
+}
+
+.restaurant-group {
+  background-color: #AAA;
+}
