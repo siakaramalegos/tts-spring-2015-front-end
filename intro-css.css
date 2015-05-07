@@ -1,11 +1,86 @@
 body {
   font-family: Impact, Charcoal, sans-serif;
+  background: url("bluebonnets.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #title {
   color: blue;
 }
 
-.restaurant-group {
-  background-color: #AAA;
+div.restaurant-group {
+  background-color: rgba(64, 48, 117, 0.8); /*#403075*/
+  margin: 10px;
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
 }
+
+.restaurant-group h2 {
+  text-transform: uppercase;
+}
+
+.restaurant-group h3 {
+  color: #FFF;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #FF0000;
+  clear: both;
+}
+
+a:hover {
+  background-color: #555;
+  border: 2px solid black;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100; /*100-900*/
+  color: #777;
+  line-height: 125%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+div.play {
+  min-height: 100px;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+}
+
+  #one {
+    background-color: red;
+  }
+
+  #two {
+    background-color: blue;
+  }
+
+  #three {
+    background-color: purple;
+  }
+
+  #four {
+    background-color: green;
+    display: none;
+  }
+
+
+  img {
+    float: left;
+    height: 200px;
+  }
