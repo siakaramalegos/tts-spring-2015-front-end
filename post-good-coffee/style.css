@@ -54,3 +54,19 @@ body {
 .footer a:hover {
   color: #323232;
 }
+
+h4.modal-title {
+  color: #323232;
+}
+
+@media only screen and (max-width: 500px) {
+  .jumbotron a.btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+}

@@ -58,8 +58,32 @@
 
   <!-- jumbotron -->
   <div class="jumbotron">
-    <h1>Welcome to Good Coffee</h1>
+    <h1>Welcome to Good Coffee <br>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#myModal">
+        Give me coffee!!
+      </button>
+    </h1>
   </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Here is your coffee!</h4>
+      </div>
+      <div class="modal-body">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Coffee_Beans.jpg" class="img-responsive">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Fine!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <div class="container-fluid">
 
