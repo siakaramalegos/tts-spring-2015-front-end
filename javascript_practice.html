@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Practice</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<div id="my-element">HI</div>
+
+<script type="text/javascript">
+$(function (){
+  $("#my-element").click(function (e){
+    $(e.target).slideUp();
+  });
+});
+
+</script>
+</body>
+</html>
